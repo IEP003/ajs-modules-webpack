@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
+    "show:dist": "live-server dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
+    "live-server": "^1.2.2",
     "mini-css-extract-plugin": "^2.7.5",
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
